@@ -1,0 +1,395 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		83EA571DC0CBDDF3DD9F02FA /* libPods-pokemon go gps utility.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 40817B346B5195AAF431C2BC /* libPods-pokemon go gps utility.a */; };
+		E43796E81D33169700FDF7D8 /* location 2.gpx in Resources */ = {isa = PBXBuildFile; fileRef = E43796E71D33169700FDF7D8 /* location 2.gpx */; };
+		E443805D1D31B93100F28124 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E443805C1D31B93100F28124 /* AppDelegate.swift */; };
+		E443805F1D31B93100F28124 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E443805E1D31B93100F28124 /* ViewController.swift */; };
+		E44380621D31B93100F28124 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E44380601D31B93100F28124 /* Main.storyboard */; };
+		E44380641D31B93100F28124 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E44380631D31B93100F28124 /* Assets.xcassets */; };
+		E44380671D31B93100F28124 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E44380651D31B93100F28124 /* LaunchScreen.storyboard */; };
+		E44380711D31BAD700F28124 /* pikachu image.png in Resources */ = {isa = PBXBuildFile; fileRef = E44380701D31BAD700F28124 /* pikachu image.png */; };
+		E44380731D31BD7900F28124 /* pokeball.png in Resources */ = {isa = PBXBuildFile; fileRef = E44380721D31BD7900F28124 /* pokeball.png */; };
+		E44380751D31BF4900F28124 /* location.gpx in Resources */ = {isa = PBXBuildFile; fileRef = E44380741D31BF4900F28124 /* location.gpx */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		40817B346B5195AAF431C2BC /* libPods-pokemon go gps utility.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-pokemon go gps utility.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E46778EB77BB100D498FE76 /* Pods-pokemon go gps utility.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pokemon go gps utility.release.xcconfig"; path = "Pods/Target Support Files/Pods-pokemon go gps utility/Pods-pokemon go gps utility.release.xcconfig"; sourceTree = "<group>"; };
+		A7708B2A263673CDC47AB27C /* Pods-pokemon go gps utility.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pokemon go gps utility.debug.xcconfig"; path = "Pods/Target Support Files/Pods-pokemon go gps utility/Pods-pokemon go gps utility.debug.xcconfig"; sourceTree = "<group>"; };
+		E43796E71D33169700FDF7D8 /* location 2.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "location 2.gpx"; sourceTree = "<group>"; };
+		E44380591D31B93100F28124 /* pokemon go gps utility.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "pokemon go gps utility.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E443805C1D31B93100F28124 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E443805E1D31B93100F28124 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E44380611D31B93100F28124 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E44380631D31B93100F28124 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E44380661D31B93100F28124 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E44380681D31B93100F28124 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E44380701D31BAD700F28124 /* pikachu image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "pikachu image.png"; path = "pokemon go gps utility/pikachu image.png"; sourceTree = "<group>"; };
+		E44380721D31BD7900F28124 /* pokeball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pokeball.png; path = "pokemon go gps utility/pokeball.png"; sourceTree = "<group>"; };
+		E44380741D31BF4900F28124 /* location.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = location.gpx; sourceTree = "<group>"; };
+		E4B1258E1D320863007629E2 /* BridgeHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BridgeHeader.h; path = "pokemon go gps utility/BridgeHeader.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E44380561D31B93100F28124 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83EA571DC0CBDDF3DD9F02FA /* libPods-pokemon go gps utility.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E4466C3EE2FFB83E9B82269 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A7708B2A263673CDC47AB27C /* Pods-pokemon go gps utility.debug.xcconfig */,
+				4E46778EB77BB100D498FE76 /* Pods-pokemon go gps utility.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7999CCA0D411EA29659188BA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				40817B346B5195AAF431C2BC /* libPods-pokemon go gps utility.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E44380501D31B93100F28124 = {
+			isa = PBXGroup;
+			children = (
+				E44380701D31BAD700F28124 /* pikachu image.png */,
+				E44380721D31BD7900F28124 /* pokeball.png */,
+				E4B1258E1D320863007629E2 /* BridgeHeader.h */,
+				E443805B1D31B93100F28124 /* pokemon go gps utility */,
+				E443805A1D31B93100F28124 /* Products */,
+				2E4466C3EE2FFB83E9B82269 /* Pods */,
+				7999CCA0D411EA29659188BA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E443805A1D31B93100F28124 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E44380591D31B93100F28124 /* pokemon go gps utility.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E443805B1D31B93100F28124 /* pokemon go gps utility */ = {
+			isa = PBXGroup;
+			children = (
+				E443805C1D31B93100F28124 /* AppDelegate.swift */,
+				E443805E1D31B93100F28124 /* ViewController.swift */,
+				E44380601D31B93100F28124 /* Main.storyboard */,
+				E44380741D31BF4900F28124 /* location.gpx */,
+				E43796E71D33169700FDF7D8 /* location 2.gpx */,
+				E44380631D31B93100F28124 /* Assets.xcassets */,
+				E44380651D31B93100F28124 /* LaunchScreen.storyboard */,
+				E44380681D31B93100F28124 /* Info.plist */,
+			);
+			path = "pokemon go gps utility";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E44380581D31B93100F28124 /* pokemon go gps utility */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E443806B1D31B93100F28124 /* Build configuration list for PBXNativeTarget "pokemon go gps utility" */;
+			buildPhases = (
+				0439DEFA85CCCC8A50F108D7 /* [CP] Check Pods Manifest.lock */,
+				E44380551D31B93100F28124 /* Sources */,
+				E44380561D31B93100F28124 /* Frameworks */,
+				E44380571D31B93100F28124 /* Resources */,
+				03A0D5E2AD9819ED01ABCBEF /* [CP] Embed Pods Frameworks */,
+				521EE26C78187F35EC5FA7C9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "pokemon go gps utility";
+			productName = "pokemon go gps utility";
+			productReference = E44380591D31B93100F28124 /* pokemon go gps utility.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E44380511D31B93100F28124 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Vikram Mullick";
+				TargetAttributes = {
+					E44380581D31B93100F28124 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = E44380541D31B93100F28124 /* Build configuration list for PBXProject "pokemon go gps utility" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E44380501D31B93100F28124;
+			productRefGroup = E443805A1D31B93100F28124 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E44380581D31B93100F28124 /* pokemon go gps utility */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E44380571D31B93100F28124 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E44380711D31BAD700F28124 /* pikachu image.png in Resources */,
+				E43796E81D33169700FDF7D8 /* location 2.gpx in Resources */,
+				E44380671D31B93100F28124 /* LaunchScreen.storyboard in Resources */,
+				E44380731D31BD7900F28124 /* pokeball.png in Resources */,
+				E44380641D31B93100F28124 /* Assets.xcassets in Resources */,
+				E44380751D31BF4900F28124 /* location.gpx in Resources */,
+				E44380621D31B93100F28124 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		03A0D5E2AD9819ED01ABCBEF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-pokemon go gps utility/Pods-pokemon go gps utility-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0439DEFA85CCCC8A50F108D7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		521EE26C78187F35EC5FA7C9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-pokemon go gps utility/Pods-pokemon go gps utility-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E44380551D31B93100F28124 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E443805F1D31B93100F28124 /* ViewController.swift in Sources */,
+				E443805D1D31B93100F28124 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E44380601D31B93100F28124 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E44380611D31B93100F28124 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E44380651D31B93100F28124 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E44380661D31B93100F28124 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E44380691D31B93100F28124 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E443806A1D31B93100F28124 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E443806C1D31B93100F28124 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7708B2A263673CDC47AB27C /* Pods-pokemon go gps utility.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "pokemon go gps utility/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pokemon.go;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = BridgeHeader.h;
+			};
+			name = Debug;
+		};
+		E443806D1D31B93100F28124 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E46778EB77BB100D498FE76 /* Pods-pokemon go gps utility.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "pokemon go gps utility/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pokemon.go;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = BridgeHeader.h;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E44380541D31B93100F28124 /* Build configuration list for PBXProject "pokemon go gps utility" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E44380691D31B93100F28124 /* Debug */,
+				E443806A1D31B93100F28124 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E443806B1D31B93100F28124 /* Build configuration list for PBXNativeTarget "pokemon go gps utility" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E443806C1D31B93100F28124 /* Debug */,
+				E443806D1D31B93100F28124 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E44380511D31B93100F28124 /* Project object */;
+}

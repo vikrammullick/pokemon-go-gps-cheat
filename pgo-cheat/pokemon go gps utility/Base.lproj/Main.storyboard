@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="pokemon_go_gps_utility" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Wz3-pt-ewD">
+                                <rect key="frame" x="20" y="435" width="280" height="113"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="113" id="hob-xw-3g2"/>
+                                </constraints>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="enter address here" textAlignment="natural" minimumFontSize="17" clearButtonMode="always" translatesAutoresizingMaskIntoConstraints="NO" id="NKW-Bl-lS6">
+                                <rect key="frame" x="20" y="28" width="280" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jYE-Bi-JBb" customClass="GMSMapView">
+                                <rect key="frame" x="20" y="66" width="280" height="330"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Coordinate" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RxK-k1-G2C">
+                                <rect key="frame" x="118" y="406" width="85" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" name="keyboardFocusIndicatorColor" catalog="System" colorSpace="catalog"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstAttribute="leadingMargin" secondItem="jYE-Bi-JBb" secondAttribute="leading" id="Cre-8T-JjF"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Wz3-pt-ewD" secondAttribute="trailing" id="Kw0-Hf-jol"/>
+                            <constraint firstItem="jYE-Bi-JBb" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="OFV-51-2gE"/>
+                            <constraint firstItem="Wz3-pt-ewD" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Vfv-aP-0h9"/>
+                            <constraint firstItem="NKW-Bl-lS6" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Wcw-Oi-foe"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="Wz3-pt-ewD" secondAttribute="leading" id="ZMe-fL-kku"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="NKW-Bl-lS6" secondAttribute="leading" id="Zuz-5I-BkX"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="NKW-Bl-lS6" secondAttribute="trailing" id="beY-Yv-Aoe"/>
+                            <constraint firstItem="RxK-k1-G2C" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="c7A-Bz-w0f"/>
+                            <constraint firstItem="jYE-Bi-JBb" firstAttribute="top" secondItem="NKW-Bl-lS6" secondAttribute="bottom" constant="8" id="db9-Ez-nBQ"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Wz3-pt-ewD" secondAttribute="bottom" constant="20" id="ggZ-pk-kje"/>
+                            <constraint firstItem="RxK-k1-G2C" firstAttribute="top" secondItem="jYE-Bi-JBb" secondAttribute="bottom" constant="10" id="h4W-EH-8yb"/>
+                            <constraint firstItem="Wz3-pt-ewD" firstAttribute="top" secondItem="RxK-k1-G2C" secondAttribute="bottom" constant="8" id="mKp-e3-Qyr"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="jYE-Bi-JBb" secondAttribute="trailing" id="nRK-If-kAp"/>
+                            <constraint firstItem="NKW-Bl-lS6" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="yKk-Ic-d5y"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="addressField" destination="NKW-Bl-lS6" id="FKn-kq-fAO"/>
+                        <outlet property="coordinateLabel" destination="RxK-k1-G2C" id="Ox8-Uc-3fl"/>
+                        <outlet property="googleMapView" destination="jYE-Bi-JBb" id="0So-i8-IVW"/>
+                        <outlet property="instructions" destination="Wz3-pt-ewD" id="yZF-bA-v0L"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="149" y="296"/>
+        </scene>
+    </scenes>
+</document>
